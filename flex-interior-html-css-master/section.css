@@ -1,0 +1,55 @@
+h1 {
+    font-size: 10vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fa-circle-arrow-up {
+    transform: rotate(30deg);
+    font-size: 30px;
+    color: rgb(4, 4, 4);
+    position: relative;
+    left: 90px;
+
+}
+
+
+.arrow h3 {
+    position: relative;
+    top: 10px;
+}
+
+#séjour {
+    width: 98lvw;
+    height: 100lvh;
+    padding: 5px;
+    filter: brightness(0.8);
+}
+
+.sec3 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 90px;
+    padding: 10PX 10px;
+}
+
+.sec3 h3 {
+    color: white;
+}
+
+#btn {
+    background-color: bisque;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+#btn :hover {
+    background-color: rgb(215, 150, 53);
+}
